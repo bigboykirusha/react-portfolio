@@ -11,10 +11,10 @@ import {
   redux,
   tailwind,
   nodejs,
-  mongodb,
+  webpack,
   git,
   figma,
-  docker,
+  vite,
   meta,
   starbucks,
   tesla,
@@ -93,8 +93,8 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Webpack",
+    icon: webpack,
   },
   {
     name: "Three JS",
@@ -109,8 +109,8 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "vite",
+    icon: vite,
   },
 ];
 
