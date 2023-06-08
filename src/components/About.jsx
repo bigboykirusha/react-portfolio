@@ -39,11 +39,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a TATAKAE TATAKAE TATAKAE TATAKAE TATAKAE TATAKAE TATAKAE TATAKAE
-        TATAKAE TATAKAE TATAKAE TATAKAE TATAKAE TATAKAE TATAKAE TATAKAE TATAKAE
-        TATAKAE TATAKAE TATAKAE TATAKAE TATAKAE TATAKAE TATAKAE TATAKAE TATAKAE
-        TATAKAE TATAKAE TATAKAE TATAKAE TATAKAE TATAKAE TATAKAE TATAKAE TATAKAE
-        TATAKAE!
+        My name is Kirill. I'm a frontend developer and a nice guy. Idk what to
+        write here. If you have questions, please feel free to ask.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

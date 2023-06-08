@@ -3,7 +3,6 @@ import { styles } from "../style.js";
 import { navLinks } from "../constants/index.js";
 import { Link } from "react-router-dom";
 import { close, logo, menu } from "../assets/index.js";
-import { color } from "framer-motion";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -15,7 +14,7 @@ const Navbar = () => {
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
           to="/"
-          className="flex items-center gap-2"
+          className="flex items-center gap-3"
           onClick={() => {
             setActive("");
             window.scrollTo(0, 0);
@@ -27,7 +26,8 @@ const Navbar = () => {
             className="w-11 h-11 object-contain rounded-[50%]"
           />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Kirill &nbsp; <span className="sm:block hidden">| JS Mastery</span>
+            Kirill &nbsp;
+            <span className="sm:block hidden">|&nbsp; Front-End Developer</span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">

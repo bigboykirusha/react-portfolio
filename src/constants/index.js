@@ -14,9 +14,9 @@ import {
   git,
   figma,
   vite,
-  carrent,
-  jobit,
-  tripguide,
+  sushi,
+  bottle,
+  fitness,
   threejs,
   icon_three,
 } from "../assets";
@@ -27,8 +27,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -118,10 +118,11 @@ const experiences = [
     iconBg: "#383E56",
     date: "HTML",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Semantic HTML.",
+      "Forms and Validations.",
+      "SEO basics.",
+      "Multimedia tags.",
+      "HTML Accessibility",
     ],
   },
   {
@@ -131,10 +132,13 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "CSS",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Responsive design and Media Queries.",
+      "Layouts.",
+      "BEM architecture.",
+      "CSS Modules.",
+      "Sass (Scss)",
+      "Post CSS",
+      "Tailwind CSS",
     ],
   },
   {
@@ -144,10 +148,15 @@ const experiences = [
     iconBg: "#383E56",
     date: "JavaScript",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Syntax and Basic Constructs.",
+      "DOM Manipulation.",
+      "Promises, async/await.",
+      "Fetch API / Ajax (XHR).",
+      "ES6+ and modular JS",
+      "TypeScript",
+      "Swiper JS",
+      "Three.js",
+      "Webpack, GULP, Vite, Esbuild",
     ],
   },
   {
@@ -157,10 +166,16 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "React",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Functional Components, Class Components.",
+      "JSX.",
+      "React Router.",
+      "Hooks, Custom hooks.",
+      "Rendering",
+      "Redux Toolkit",
+      "React + TypeScript",
+      "Axios",
+      "Framer Motion",
+      "Code-Splitting",
     ],
   },
 ];
@@ -168,27 +183,30 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I thought it was impossible to make a website as beautiful as our product, but Kirill proved me wrong.",
+    name: "Tim Cook",
+    designation: "CEO",
+    company: "Apple",
+    image:
+      "https://www.hollywoodreporter.com/wp-content/uploads/2021/12/Tim-Cook-Ted-Lasso-Premiere-GettyImages-1328978329-H-2021.jpg?w=1296",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I've never met a web developer who truly cares about their clients' success like Kirill does.",
+    name: "Mark Zuckerberg",
+    designation: "CEO",
+    company: "Meta",
+    image:
+      "https://bsmedia.business-standard.com/_media/bs/img/article/2018-07/25/full/1532525428-0063.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "This is Elon Musk! This is Elon Musk! This is Elon Musk! This is Elon Musk! This is Elon Musk! This is Elon Musk!",
+    name: "Elon Musk",
+    designation: "CEO",
+    company: "SpaceX",
+    image:
+      "https://www.thestreet.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTkyNDk0NTEyNTIwNTcwMTY5/elon-musk-3-lead-js-092122.jpg",
   },
 ];
 
@@ -210,9 +228,13 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: sushi,
+    source_code_link: "https://github.com/bigboykirusha/react-shop",
   },
   {
     name: "Github Bottle",
@@ -232,8 +254,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: bottle,
+    source_code_link: "https://github.com/bigboykirusha/github-bottle",
   },
   {
     name: "Fitness App ",
@@ -253,8 +275,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: fitness,
+    source_code_link: "https://github.com/bigboykirusha/react-fitness-app",
   },
 ];
 
