@@ -1,7 +1,6 @@
 import {
-  mobile,
-  backend,
-  creator,
+  icon_one,
+  icon_two,
   web,
   javascript,
   typescript,
@@ -10,19 +9,16 @@ import {
   reactjs,
   redux,
   tailwind,
-  nodejs,
+  swiper,
   webpack,
   git,
   figma,
   vite,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  icon_three,
 } from "../assets";
 
 export const navLinks = [
@@ -46,16 +42,16 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Communicative Person",
+    icon: icon_one,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Responsible Employee",
+    icon: icon_three,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Nice Guy",
+    icon: icon_two,
   },
 ];
 
@@ -89,8 +85,8 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Swiper JS",
+    icon: swiper,
   },
   {
     name: "Webpack",
@@ -116,11 +112,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "HTML",
+    name: "HTML",
+    icon: html,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "HTML",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,11 +125,11 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "CSS",
+    name: "CSS",
+    icon: css,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "CSS",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -142,11 +138,11 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "JavaScript",
+    name: "JavaScript",
+    icon: javascript,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "JavaScript",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -155,11 +151,11 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "React",
+    name: "React",
+    icon: reactjs,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "React",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -198,7 +194,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Sushi Shop",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -207,7 +203,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "redux",
         color: "green-text-gradient",
       },
       {
@@ -219,7 +215,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Github Bottle",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -240,20 +236,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Fitness App ",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
