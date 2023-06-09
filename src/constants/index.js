@@ -214,7 +214,7 @@ const projects = [
   {
     name: "Sushi Shop",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web application that allows users to search, sort, and add to cart sushi. Implemented pagination, saving the cart to local storage and lazy loading.",
     tags: [
       {
         name: "react",
@@ -239,7 +239,7 @@ const projects = [
   {
     name: "Github Bottle",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that allows users to see the best Github repositories sorted by programming languages and compare their Github profile with those of other users.",
     tags: [
       {
         name: "react",
@@ -260,7 +260,7 @@ const projects = [
   {
     name: "Fitness App ",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A simple landing page for fitness clubs, with a beautiful design, stylish animation, smooth scroll, photo galleries,  adapted for mobile devices.",
     tags: [
       {
         name: "react",
